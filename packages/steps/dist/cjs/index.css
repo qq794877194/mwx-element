@@ -1,0 +1,28 @@
+.mwx-steps{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.mwx-steps-line{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 2px;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: rgb(223,231,239);
+}
+.mwx-step{
+    border: 1px solid #e1dae1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+}

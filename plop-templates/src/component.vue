@@ -1,19 +1,14 @@
 <template>
 <div>
-    <button @click="handleClick">
-        <slot></slot>
-    </button>
+
 </div>
 </template>
 
 <script>
     export default {
-        name: "mwxButton",
-        methods: {
-            handleClick(e){
-                e.preventDefault();
-                this.$emit('click',e);
-            }
+        name: "mwx{{properCase name}}1",
+        props: {
+
         }
     }
 </script>
